@@ -1,0 +1,93 @@
+.slider {
+    position:relative;
+    overflow:hidden
+}
+
+.slider ul {
+    margin:0;
+    padding:0;
+    left:0;
+    position: absolute;
+}
+
+.slider li {
+    list-style:none;
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+.sliderBtn {
+    width:45px;
+    height: 100px;
+    background:url("../images/btnico/sprite.png") no-repeat;
+    cursor: pointer;
+    position:relative;
+    top:30%;
+    z-index:100;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity:0.5;
+    opacity: 0.5;
+}
+
+#altbox {
+    width:100%;
+    height:40px;
+    line-height: 40px;
+    background:#ADD8E6;
+    padding: 0px 10px;
+    position:absolute;
+    bottom:0;
+    color:#FFAEB9;
+    text-align:left;
+    left:0;
+    filter:alpha(opacity=70);
+    -moz-opacity:0.7;
+    -khtml-opacity:0.7;
+    opacity: 0.7;
+}
+
+#prevBtn {
+    float:left;
+}
+
+#nextBtn {
+    background-position:right top;
+    float:right;
+}
+
+#btnList {
+    width:100%;
+    height:25px;
+    position:absolute;
+    left:0;
+    bottom:5px;
+    padding-top: 10px;
+}
+
+.num, .num_active, .num:hover {
+    width:22px;
+    height:22px;
+    line-height:25px;
+    float:right;
+    text-align:center;
+    cursor:pointer;
+    margin-right:10px;
+    overflow:hidden;
+}
+
+.num {
+    background:#90EE90;
+    border:1px solid #ccc;
+}
+
+.num_active {
+    background:#EEB422;
+    border:1px solid #ccc;
+}
+
+.num:hover {
+    background:#FFAEB9;
+    border:1px solid #ccc;
+}
