@@ -10,7 +10,7 @@ Include the required files.
 <script type="text/javascript" src="js/jquery.Kslider-1.2.js"></script>
 </script>
 ```
-
+<br>
 Add some markup. All top level elements inside the slider div are assumed to be "slides".
 ```Javascript
 <div id="slider1" class="slider">
@@ -27,14 +27,14 @@ Add some markup. All top level elements inside the slider div are assumed to be 
   ...
 </div>
 ```
-
+<br>
 Hook up the jQuery.
 ```Javascript
 $(function(){
   $("#slider1").Kslider();
 });
 ```
-
+<br><br>
 #### API Documentation
 ```Javascript
   autoPlay        :       0
@@ -46,3 +46,4 @@ $(function(){
   effect          :       'horizontal'    // horizontal、vertical、fade、none
   numBtnSty       :       'num'
 ```
+<br>
