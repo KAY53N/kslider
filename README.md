@@ -36,13 +36,13 @@ $(function(){
 ```
 
 #### API Documentation
+```Javascript
   autoPlay        :       0
-  speeds          : 		  400,
+  speeds          :       400
   preNexBtnShow   :       1
   delays          :       4000
   widthVal        :       800
   heightVal       :       300
-  effect          :	      'horizontal'    // horizontal、vertical、fade、none
+  effect          :       'horizontal'    // horizontal、vertical、fade、none
   numBtnSty       :       'num'
-
-
+```
