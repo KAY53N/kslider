@@ -1,49 +1,50 @@
 # Kslider
-
- jQuery Image/HTML Slider Plugin 
+A jQuery slider plugin. See live demo at [http://www.xujiantao.com/jquery_plugins/kslider](http://www.xujiantao.com/jquery_plugins/kslider "http://www.xujiantao.com/jquery_plugins/kslider")
 
 #### Usage
 Include the required files.
 ```Javascript
-<link type="text/css" rel="stylesheet" href="./css/css.css" />
-<script type="text/javascript" src="./js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="js/jquery.Kslider-1.2.js"></script>
-</script>
+<link type="text/css" rel="stylesheet" href="./../source/css/jquery.Kslider.css" />
+
+<script type="text/javascript" src="./../source/js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="./../source/js/jquery.Kslider-1.2.js"></script>
 ```
-<br>
-Add some markup. All top level elements inside the slider div are assumed to be "slides".
+<br><br>
+
+#### The HTML :
 ```Javascript
-<div id="slider1" class="slider">
-	<ul>				
-		<li><a href=""><img width="800" height="300" border="0" src="./images/01.jpg" alt="1111111111" /></a></li>
-		<li><a href=""><img width="800" height="300" border="0" src="./images/02.jpg" alt="22222222222" /></a></li>
-		<li><a href=""><img width="800" height="300" border="0" src="./images/03.jpg" alt="333333333333" /></a></li>
-		<li><a href=""><img width="800" height="300" border="0" src="./images/04.jpg" alt="444444444444" /></a></li>
-		<li><a href=""><img width="800" height="300" border="0" src="./images/05.jpg" alt="555555555555" /></a></li>
-	</ul>
-  
-  <span id="prevBtn" type="PREV" class="sliderBtn"></span>
-  <span id="nextBtn" type="NEXT" class="sliderBtn"></span>
-  ...
-</div>
+	<div id="demo" class="slider">
+		<ul>				
+			<li><a href=""><img src="./../source/images/01.jpg" /></a></li>
+			<li><a href=""><img src="./../source/images/02.jpg" /></a></li>
+			<li><a href=""><img src="./../source/images/03.jpg" /></a></li>
+			<li><a href=""><img src="./../source/images/04.jpg" /></a></li>
+		</ul>
+		
+		
+		<div class="controls">
+			<span class="sliderBtn prevBtn"></span>
+			<span class="sliderBtn nextBtn"></span>
+			<div class="paginator"></div>
+		</div>
+	</div>
 ```
-<br>
-Hook up the jQuery.
+<br><br>
+
+#### Hook up the jQuery.
 ```Javascript
 $(function(){
   $("#slider1").Kslider();
 });
 ```
 <br><br>
-#### API Documentation
+
+#### Initialization options
 ```Javascript
-  autoPlay        :       0
-  speeds          :       400
-  preNexBtnShow   :       1
-  delays          :       4000
-  widthVal        :       800
-  heightVal       :       300
-  effect          :       'horizontal'    // horizontal、vertical、fade、none
-  numBtnSty       :       'num'
+autoPlay        :        0,
+delays          :        4000
+widthVal        :        800
+heightVal       :        300
+effect          :	     'horizontal'  // horizontal、vertical、fade、none
 ```
-<br>
+<br><br>

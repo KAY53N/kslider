@@ -1,0 +1,77 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+	background: rgba(0,0,0,0.4);
+}
+
+.slider ul {
+    margin:0;
+    padding:0;
+    left:0;
+    position: absolute;
+	transform: translate3d(0, 0, 0);transition: transform 0.5s ease-in-out;
+}
+
+.slider li {
+    list-style:none;
+    margin:0;
+    padding:0;
+    float: left;
+}
+
+.slider li img {
+	max-width: 100%;
+    width: auto\9;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+
+.controls {
+	height:0;
+	width:100%;
+}
+
+.paginator {
+	position:relative;
+	text-align:center;
+}
+.paginator i {
+	background:rgba(0,0,0,.7);
+	border-radius: 8px;
+	box-sizing: border-box;
+	display:inline-block;
+	height:14px;
+	width:14px;
+	margin:0 8px;
+	cursor:pointer;
+	transition: background .2s;
+}
+.paginator i.active {
+	background:rgba(255,255,255,.8);
+}
+
+.controls .sliderBtn {
+    width:45px;
+    height: 100px;
+	display:none;
+    background:url("../images/btnico/sprite.png") no-repeat;
+    cursor: pointer;
+    position:absolute;
+    top:30%;
+    z-index:100;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity:0.5;
+    opacity: 0.5;
+}
+
+.controls .prevBtn {
+    left:0;
+}
+
+.controls .nextBtn {
+    background-position:right top;
+    right:0;
+}
