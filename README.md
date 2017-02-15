@@ -34,7 +34,7 @@ Include the required files.
 #### Hook up the jQuery.
 ```Javascript
 $(function(){
-  $("#slider1").Kslider();
+  $("#demo").Kslider();
 });
 ```
 <br><br>
