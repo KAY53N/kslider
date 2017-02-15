@@ -1,5 +1,5 @@
 # Kslider
-A jQuery slider plugin. See live demo at [http://www.xujiantao.com/jquery_plugins/kslider](http://www.xujiantao.com/jquery_plugins/kslider "http://www.xujiantao.com/jquery_plugins/kslider")
+A jQuery slider plugin. See live demo at [http://www.xujiantao.com/jquery_plugins/kslider/examples/basic.html](http://www.xujiantao.com/jquery_plugins/kslider/examples/basic.html "http://www.xujiantao.com/jquery_plugins/kslider/examples/basic.html")
 
 #### Usage
 Include the required files.
