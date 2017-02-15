@@ -41,7 +41,7 @@ $(function(){
 
 #### Initialization options
 ```Javascript
-autoPlay        :        0,
+autoPlay        :        0
 delays          :        4000
 widthVal        :        800
 heightVal       :        300
