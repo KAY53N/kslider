@@ -1,5 +1,10 @@
 # Kslider
 A jQuery slider plugin. See live demo at [http://www.xujiantao.com/jquery_plugins/kslider/examples/basic.html](http://www.xujiantao.com/jquery_plugins/kslider/examples/basic.html "http://www.xujiantao.com/jquery_plugins/kslider/examples/basic.html")
+<br><br>
+
+### Browser Support
+IE 9+, Chrome, Firefox, Safari, Opera (including Mobile devices).
+<br><br>
 
 #### Usage
 Include the required files.
